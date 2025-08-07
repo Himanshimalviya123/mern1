@@ -1,8 +1,8 @@
 const Footer=()=>{
     return(
         <>
-        <div>
-        <h5>footer</h5>
+        <div class="footer">
+        <h5 align="center">@2020 copyright:MDBootstrap.com</h5>
         </div>
         </>
     )
