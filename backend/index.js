@@ -6,8 +6,7 @@ const bodyparser=require("body-parser");
 const cors=require("cors");
 mongoose.connect("mongodb+srv://malviyahimanshi14:ocobOSqvLV5eXZ2M@cluster0.ups2s80.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(()=>{
     console.log("Database connected successfully");
-})
-    
+})    
 //Body parser middleware
 app.use(bodyparser.urlencoded({extended:true}));
 app.use(bodyparser.json());
