@@ -7,7 +7,6 @@ import Home from "./pages/home";
 import Editdata from "./pages/editdata";
 import Contact from "./pages/contact";
 import Search from "./pages/search";
-
 const App=()=>{
   return(
     <>
