@@ -5,4 +5,4 @@ const stuSchema=new mongoose.Schema({
     city:String,
     fees:Number
 })
-module.exports=mongoose.model("student",stuSchema)
+module.exports=mongoose.model("students",stuSchema)
