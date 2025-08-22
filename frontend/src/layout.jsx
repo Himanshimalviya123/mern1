@@ -4,7 +4,6 @@ import Footer from "./component/footer";
 const Layout=()=>{
     return(
         <>
-        {/* <Header/> */}
         <div id="navbar">
         <Topnav/>
         </div>

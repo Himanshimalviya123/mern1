@@ -17,14 +17,12 @@ const Editdata=()=>{
     useEffect(()=>{
         loadData();
     },[])
-
     const handleInput=(e)=>{
         let name=e.target.name;
         let value=e.target.value;
         setMydata(Values=>({...Values,[name]:value}));
         console.log(mydata)
     }
-
     const handleSubmit=async(e)=>{
         e.preventDefault();
         let api=`${BackendURL}students/editsave`;
