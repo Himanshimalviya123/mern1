@@ -47,7 +47,6 @@ const searchdata=async(req,res)=>{
     
     res.send(student)
 }
-
 module.exports={
     stuSave,
     stuDisplay,
